@@ -1,0 +1,29 @@
+/* General Colors */
+.cm-s-kudamono {background: #222; color: #CCC;}
+.cm-s-kudamono .CodeMirror-activeline {background: #222;}
+.cm-s-kudamono .CodeMirror-focused {background: #333;}
+.cm-s-kudamono .CodeMirror-selected {background: #333;}
+
+/* Clojure Colors */
+.cm-s-kudamono span.cm-atom {color: #91DB37;} /* keywords, quote special form  */
+.cm-s-kudamono span.cm-keyword {color: #EB5757;} /* special forms */
+.cm-s-kudamono span.cm-builtin {color: #EDD64A;} /* builtin symbols */
+.cm-s-kudamono span.cm-variable {color: #6796DB;} /* user-defined symbols */
+.cm-s-kudamono span.cm-number {color: #FFA02B;} /* number literals */
+.cm-s-kudamono span.cm-string {color: #B279DB;} /* string literals */
+.cm-s-kudamono span.cm-comment {color: #666;} /* comments */
+
+/* Misc Colors */
+.cm-s-kudamono span.cm-bracket {color: #CCC;}
+.cm-s-kudamono span.cm-def {color: #EDD64A;}
+.cm-s-kudamono span.cm-header {color: #CCC;}
+.cm-s-kudamono span.cm-meta {color: #CCC;}
+.cm-s-kudamono span.cm-qualifier {color: #CCC;}
+.cm-s-kudamono span.cm-string-2 {color: #B279DB;}
+.cm-s-kudamono span.cm-symbol {color: #CCC;}
+.cm-s-kudamono span.cm-tag {color: #CCC;}
+.cm-s-kudamono span.cm-variable-2 {color: #CCC;}
+.cm-s-kudamono span.cm-SUBST {color: #CCC;}
+
+/* Cursor */
+.CodeMirror div.CodeMirror-cursor {border-left: 2px solid #EB5757;}
