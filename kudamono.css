@@ -26,4 +26,6 @@
 .cm-s-kudamono span.cm-SUBST {color: #CCC;}
 
 /* Cursor */
-.CodeMirror div.CodeMirror-cursor {border-left: 2px solid #EB5757;}
+.cm-s-kudamono .CodeMirror-cursor {border-left: 2px solid #EB5757;}
+.cm-s-kudamono .CodeMirror-linenumber {color: #555;}
+.cm-s-kudamono .CodeMirror-matchingbracket {font-weight: bold; color: #FFA02B !important;}
